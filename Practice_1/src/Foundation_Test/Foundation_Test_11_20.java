@@ -17,7 +17,7 @@ public class Foundation_Test_11_20 {
     public static void main(String[] args) {
         short s = Short.MAX_VALUE;
         // char c = s;  short要等於一個字元的常數
-        System.out.println( c == Short.MAX_VALUE);
+        // System.out.println( c == Short.MAX_VALUE);
     }
     
 }
