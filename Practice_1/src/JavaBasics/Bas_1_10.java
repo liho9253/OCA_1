@@ -13,7 +13,6 @@ import java.io.*;
 import java.util.*;
 // import static
 public class Bas_1_10 {
-    //public OtherClass oc = OtherClass();
     // void mian一定要連在起
     // main method 要 static
     // public class 的name要跟file一樣
@@ -21,6 +20,8 @@ public class Bas_1_10 {
     // static 不能被override 但可以被hidden
     // final 不能被 override
     // 沒有import 要打package的全名
+    
+    //public OtherClass oc = OtherClass();
     
     public static void main(String[] args)throws IOException {
         System.out.println(new Bas_1_10().main);

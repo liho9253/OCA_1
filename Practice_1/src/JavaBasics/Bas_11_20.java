@@ -19,6 +19,7 @@ public class Bas_11_20 {
         double x=10, y;
         // int b = 10.0;
         int a = (int)10.0;
+        
     }
     
 }
