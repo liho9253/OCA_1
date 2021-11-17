@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package JavaBasics;
+package JavaBasics_1;
 
 /**
  *
@@ -12,10 +12,10 @@ package JavaBasics;
 import java.io.*;
 import java.util.*;
 // import static
-public class Bas_1_10 {
+public class Bas_1to10 {
     // void mian一定要連在起
-    // main method 要 static
-    // public class 的name要跟file一樣
+    // mainc
+    // public class 的name要跟f method 要 statiile一樣
     // main class 可以沒有 public 
     // static 不能被override 但可以被hidden
     // final 不能被 override
@@ -24,7 +24,7 @@ public class Bas_1_10 {
     //public OtherClass oc = OtherClass();
     
     public static void main(String[] args)throws IOException {
-        System.out.println(new Bas_1_10().main);
+        System.out.println(new Bas_1to10().main);
     }   
     int main;
 }
