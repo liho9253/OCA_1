@@ -42,8 +42,14 @@ public class CUA_1 {
         }catch (Exception e){  }  //empty catch       
         System.out.println("index = " + index);    
         //----------------------------
-        char[][] cA = {  { 'a', 'b', 'c' },  { 'a', 'b', 'c' }   };
-        
+        int ind = 1; 
+        String[] strArr = new String[5]; 
+        String   myStr  = strArr[ind]; 
+        System.out.println(myStr);
+        //-----------------------------
+        String[][][] arr  ={{ { "a", "b" , "c"}, { "d", "e", null } },
+                              { {"x"}, null },{{"y"}},{ { "z","p"}, {} }};       
+        System.out.println(arr[0][1][2]);
     
     }
     
