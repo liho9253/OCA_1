@@ -13,7 +13,7 @@ class Baap {
         return h;     
     } 
 }
-public class WCME_3 extends Baap{
+public class WCME_3 extends Baap{ 
     public int h = 44;
     public int getH() {
         System.out.println("Beta " + h);
