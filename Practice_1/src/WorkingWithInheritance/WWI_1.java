@@ -47,7 +47,7 @@ class C5 extends B5 {
 public class WWI_1 {
     static int si = 10;
     public WWI_1(){       
-        System.out.println(123);    
+        System.out.println(this);    
     }    
     public String toString(){
         return "TestClass.si = "+this.si;    
