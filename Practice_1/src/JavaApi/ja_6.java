@@ -10,7 +10,7 @@ package JavaApi;
  * @author user
  */
 public class ja_6 {
-
+ 
     /**
      * @param args the command line arguments
      */
