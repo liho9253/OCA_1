@@ -15,7 +15,7 @@ public class t4 {
     // 非受檢例外 RuntimeException, error 無規定
     // 受檢例外 RuntimeException, error 以外的全部 都要try catch 或 throws
     // static 不能直接用變數
-    // fimal 不能被繼承
+    // final 不能被繼承
     // 建構子封裝跟方法封裝
     /**
      * @param args the command line arguments
