@@ -45,7 +45,7 @@ public class CUA_4 {
         incr(i) ;
         incr(iArr) ;
         System.out.println( "i = " + i + "  iArr[0] = " + iArr [ 0 ] ) ;
-        String [][] newargs = {};
+        String [][] news = {};
         //------------------------------
         int[][] a = new int[2][];
         a[0] = new int[2];
