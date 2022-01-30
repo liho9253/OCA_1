@@ -5,7 +5,7 @@
  */
 package ATest;
 
-public class t6_allTest {
+public class t6_Test1 {
     // package 裡不一定要包含 main 方法
     public A a;
     public class A{}
