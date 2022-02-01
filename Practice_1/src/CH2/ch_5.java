@@ -17,7 +17,7 @@ public class ch_5 {
         // public oC = new oC();
         System.out.println("ss");
         //return 10l;
-        // void main
+        // void main 要一起
     }
     
 }

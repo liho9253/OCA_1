@@ -33,7 +33,7 @@ public class ch_1 {
         b = (B[])a;
         b = (B[])al;
         
-        // int[][] w = new int[][4]; int[][4] 宣告要從左邊開始
+        // int[][] w = new int[][4];  int[][4] 宣告要從左邊開始
         
     }
     
