@@ -9,8 +9,8 @@ package CH3;
  *
  * @author user
  */
-public class ch_2 {
- 
+public class ch_3 {
+
     /**
      * @param args the command line arguments
      */
