@@ -22,9 +22,9 @@ public class ch_2 {
         
         int ia[][][] = new int[4][3][3];
         System.out.println(ia.length+" "+ia[0].length+" "+ia[1][0].length);
-        
+         
         int i = 1;
-        int[] iArr = {1};
+        int[] iArr = {1}; 
         incr(i) ;
         incr(iArr) ;
         System.out.println( "i = " + i + "  iArr[0] = " + iArr [ 0 ] ) ;
