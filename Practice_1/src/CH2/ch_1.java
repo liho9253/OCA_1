@@ -10,7 +10,7 @@ package CH2;
  * @author user
  */
 public class ch_1 {
-    // 抽象 不能有 static
+    // 抽象 不能有   static
     int i ;
 { i = 1000; }
     public static void main(String[] args) {
