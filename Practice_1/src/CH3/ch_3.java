@@ -11,11 +11,17 @@ package CH3;
  */
 public class ch_3 {
 
-    /**
-     * @param args the command line arguments
-     */
+    // array 數量用 lenght
+    // array 建立後不能調大小 arrayList可以 
     public static void main(String[] args) {
-        // TODO code application logic here
+        String[] arr = new String[2];
+        for(String str : arr){
+            System.out.println(str);
+        }
+        
+        
+        
+        
     }
     
 }
