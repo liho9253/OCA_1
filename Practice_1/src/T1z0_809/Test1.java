@@ -5,6 +5,8 @@
  */
 package T1z0_809;
 
+import java.util.concurrent.locks.ReentrantLock;
+
 class Widget {
 
     String data = "data";
@@ -20,14 +22,24 @@ class GoodWidget extends Widget{
     public void doWidgetStuff() {
     }
 }
-public class Test1 {
+public class Test1 extends Thread{ 
 
-    /**
-     * @param args the command line arguments
-     */
+    public void run(){
+        for(;;);
+    }
     public static void main(String[] args) {
         Widget w = new GoodWidget();
         ((Widget)w).doWidgetStuff();
+        
+        ReentrantLock rc = new ReentrantLock();
+        //boolean t1 = rc.lock();
+        //System.out.println(t1);
+        
+        
+        System.out.println("Starting Main");
+        new Test1().start();
+        System.out.println("Main returns");
+        
     }
     
 }
