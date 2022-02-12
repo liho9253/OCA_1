@@ -30,8 +30,8 @@ public class ch_1 {
                 break JACK; 
             else c++;
         }
-        System.out.println();
-        
+        System.out.println("");
+         
         boolean b = false;
         System.out.println(b = !b);
         
