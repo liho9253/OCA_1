@@ -3,27 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package EsayTest;
+package Tough;
 
 /**
  *
  * @author user
  */
-public class ch_2 {
+public class ch_1 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-
-    int count = 0, sum = 0;
-    do{
-           if(count % 3 == 0) continue;
-           sum+=count;
-    }
-    while(count++ < 11);
-    System.out.println(sum);
-     
+        // TODO code application logic here
     }
     
 }
