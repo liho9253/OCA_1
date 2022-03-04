@@ -36,11 +36,11 @@ public class ch_1 {
         // System.out.println(null + null);      
         boolean bool = (a1 = true) || (b1 = true) && (c1 = true);     
         System.out.println(a1 + ", " + b1 + ", " + c1);  
-        
+        /*
         ch_1 s = new GoodSpeak();
         ((Tone)s).up(); 
         ((GoodSpeak)s).up(); 
-        
+        */
          // System.out.println("12345".charAt(6));
 }
  static class GoodSpeak extends ch_1 implements Tone{  
@@ -48,6 +48,7 @@ public class ch_1 {
         System.out.println("UP UP UP");  
     }
 }
+
 interface Tone{     
     void up(); 
 }
