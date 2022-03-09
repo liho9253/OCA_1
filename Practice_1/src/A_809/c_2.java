@@ -10,6 +10,7 @@ public class c_2 {
 
     // 抽象方法不能有實作{}
     // enum 建構子只能用private 且不用 new
+    
     public static void main(String[] args) {
         if(new Boolean("true")){System.out.println("OK");}
         if(new Boolean("TRUE")){System.out.println("AOK");}
@@ -19,7 +20,6 @@ public class c_2 {
             System.out.println("A");
         }
     }
-    
     
     public static void m1(){
         try{
