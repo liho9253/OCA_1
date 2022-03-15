@@ -14,7 +14,7 @@ public class c_3 {
     
     public static void main(String[] args) {
         int i = 0;
-        
+        float q = 2;
     }
     
 }
