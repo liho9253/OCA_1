@@ -66,6 +66,7 @@ public class ch_1 extends A{
     int a2 = Integer.MIN_VALUE;
     int b2 = -a2;
     System.out.println( a2+ "   "+b2);
+    
     }
     
 }
