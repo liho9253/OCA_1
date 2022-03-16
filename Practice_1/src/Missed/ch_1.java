@@ -67,6 +67,9 @@ public class ch_1 extends A{
     int b2 = -a2;
     System.out.println( a2+ "   "+b2);
     
+    
+    
+    
     }
     
 }
