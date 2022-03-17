@@ -5,17 +5,20 @@
  */
 package VeryTough;
 
-/**
- *
- * @author user
- */
 public class ch_4 {
 
-    /**
-     * @param args the command line arguments
-     */
+    // byte * byte = int
+    // char + byte = int 
+    // type 的多重繼承包括實現多個 interface 的能力和從多個類 extends 的能力
+    // state 的多重繼承包括從多個 class extends 實例字段的能力。
+    static String url = "jdbc://derby://localhost:1527//mydb"; 
+    static ch_4 getDatabase(){    
+        System.out.println("Getting DB");   
+        return null;  
+    }
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println( getDatabase().url );
+        System.out.println(10/4-30);
     }
     
 }
