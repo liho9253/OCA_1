@@ -40,7 +40,8 @@ public class ch_3 {
         
         java.time.LocalDate dt1 = 
                 java.time.LocalDate.parse("2015-01-01").minusMonths(1).minusDays(1).plusYears(1); 
-        // Date 只有到日期
+        // Date 只有到日期ㄌ
+        //日期常考
         System.out.println(dt1);
     }
     
