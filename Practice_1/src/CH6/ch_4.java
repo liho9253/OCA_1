@@ -11,9 +11,7 @@ package CH6;
  */
 public class ch_4 {
 
-    /**
-     * @param args the command line arguments
-     */
+    // 1322
     public static void main(String[] args) {
         // TODO code application logic here
     }
