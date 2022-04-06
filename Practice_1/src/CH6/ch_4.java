@@ -12,6 +12,7 @@ package CH6;
 public class ch_4 {
 
     // 1322
+    // 8448
     public static void main(String[] args) {
         // TODO code application logic here
     }
