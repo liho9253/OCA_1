@@ -5,17 +5,18 @@
  */
 package VeryTough;
 
-/**
- *
- * @author user
- */
-public class ch_5 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class ch_5{
+    // 參數大小會被忽略但空白不會
+    public static int m1() throws Exception{
+        throw new Exception("Some Exception");    
+    }
+    int i =   4;
+    void print() { System.out.print(i+" "); }
+    public static void main(String[] args) throws Exception{    
+        int[] a = null; 
+        int i = a [ m1() ];
+        
+        
     }
     
 }
