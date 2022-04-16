@@ -57,6 +57,19 @@ public class t1 implements Runnable{
         for(Address a : al) System.out.println(a.street+" "+ a.zip);
         
         // equals 方法被覆蓋也代表 hsahcode 也被覆蓋
+        
+        // List<?> list = new ArrayList<>(Arrays.asList(names));
+        // List<String> list = new ArrayList<>(Arrays.asList(names));
+          // 前面問號後面可以不寫 
+          
+          /*
+        Locale(String language)
+          Construct a locale from a language code.
+        Locale(String language, String country)
+            Construct a locale from language, country.
+        Locale(String language, String country, String variant)
+            Construct a locale from language, country, variant.
+          */
     }
     
 }
