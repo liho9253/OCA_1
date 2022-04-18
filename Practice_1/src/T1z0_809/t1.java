@@ -23,10 +23,8 @@ class Address implements Comparable<Address>{
 }
 public class t1 implements Runnable{
     int x = 0, y = 0;
-    public void run()
-    {
-      while(true)
-      {
+    public void run(){
+      while(true){
         x++; y++;
         System.out.println(" x = "+x+" , y = "+y);
       }
@@ -62,7 +60,7 @@ public class t1 implements Runnable{
         // List<String> list = new ArrayList<>(Arrays.asList(names));
           // 前面問號後面可以不寫 
           
-          /*
+          /* 
         Locale(String language)
           Construct a locale from a language code.
         Locale(String language, String country)
