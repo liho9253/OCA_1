@@ -29,6 +29,7 @@ public class t1 implements Runnable{
         System.out.println(" x = "+x+" , y = "+y);
       }
     }
+    //0...0
     public static void main(String[] args) {
         /*
         Path p1 = Paths.get("\\personal\\readme.txt");
