@@ -14,6 +14,7 @@ public class assert_1 {
     
         static int value;
         static boolean flag;
+        
     public static void main(String[] args) {
         assert value == 10 : value;
         assert value == 10 : flag;
