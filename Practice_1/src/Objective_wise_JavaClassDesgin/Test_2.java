@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package T1z0_809;
+package Objective_wise_JavaClassDesgin;
 
 /**
  *
@@ -11,7 +11,7 @@ package T1z0_809;
  */
 public class Test_2 {
     // String Buffer String Builder 都是可變的
-    // composition 組合  如果需要多個類就不用 extends 了 (set 跟 get)
+    // composition 組合  如果需要多個類就不用 extends 了 (set 跟 get) 有封裝的效果
     // 沒有 modifier 就是 default 的意思
     // The Singleton patterns 單例模式 保證一個類只會產生一個物件且要提供存取物件的統一方法
       // 把 constructor 宣告成 private 

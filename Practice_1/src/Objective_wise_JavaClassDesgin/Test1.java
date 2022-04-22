@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package T1z0_809;
+package Objective_wise_JavaClassDesgin;
 
 import java.util.concurrent.locks.ReentrantLock;
 
