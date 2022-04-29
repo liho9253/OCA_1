@@ -12,6 +12,7 @@ package Test;
 public class Test2_1 {
 
     // while 宣告的變數只有自己能用 其他也可以宣告同名的變數 互不影響
+    // 
     public static void main(String[] args) {
         
     }
