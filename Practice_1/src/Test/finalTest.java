@@ -17,6 +17,7 @@ public class finalTest {
     public finalTest(){}
     static String str;
     static boolean[] ba = new boolean[1];
+    // 重點
     // 拋出例外就不會繼續執行
     // constructor
       // 要跟 class 同名
